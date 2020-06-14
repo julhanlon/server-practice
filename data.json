@@ -1,0 +1,16 @@
+{
+  "family": [
+    {
+      "name": "Julia",
+      "age": 34,
+      "city": "San Francisco",
+      "hobbies": ["swimming", "running"]
+    },
+    {
+      "name": "Adam",
+      "age": 22,
+      "city": "Boston",
+      "hobbies": ["cars", "football"]
+    }
+  ]
+}
