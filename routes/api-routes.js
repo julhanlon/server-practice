@@ -9,8 +9,8 @@ router.get("/api", (req, res) => {
 
 //to get all the objects
 router.get("/api/all", (req, res) => {
-  let data = fs.writeFileSync("data.json", "utf8");
-  data.JSON.parse(data);
+  let data = fs.readFileSync("data.json", "utf8");
+  data = JSON.parse(data);
   res.json(data.family);
 });
 
